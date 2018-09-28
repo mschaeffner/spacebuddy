@@ -1,0 +1,14 @@
+{
+  "name": "spacebuddy.co.nz",
+  "author": "Mathias Schaeffner",
+  "homepage": "https://spacebuddy.co.nz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "scripts": {
+    "predeploy": "cp CNAME build/CNAME",
+    "deploy": "gh-pages -d build"
+  }
+}
